@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1114335d6f10db42885e21f568bcf24, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  obstaclesRows:
+  - obstaclesCount: 1
+    moveDistance: 0
+    moveSpeed: 0
+    dynamic: 0
+  - obstaclesCount: 2
+    moveDistance: 0
+    moveSpeed: 0
+    dynamic: 0
+  - obstaclesCount: 3
+    moveDistance: 1
+    moveSpeed: 1
+    dynamic: 1
+  - obstaclesCount: 4
+    moveDistance: 0
+    moveSpeed: 0
+    dynamic: 0
+  - obstaclesCount: 5
+    moveDistance: 0
+    moveSpeed: 0
+    dynamic: 0
+  - obstaclesCount: 6
+    moveDistance: 0.5
+    moveSpeed: 1.5
+    dynamic: 1
+  obstacleBlocks:
+  - startObstacle:
+      row: 4
+      column: 1
+    endObstacle:
+      row: 4
+      column: 2
+    blinking: 0
+    showTime: 0
+    hideTime: 0
+  - startObstacle:
+      row: 4
+      column: 2
+    endObstacle:
+      row: 4
+      column: 3
+    blinking: 0
+    showTime: 0
+    hideTime: 0
+  - startObstacle:
+      row: 3
+      column: 1
+    endObstacle:
+      row: 3
+      column: 2
+    blinking: 0
+    showTime: 0
+    hideTime: 0
+  - startObstacle:
+      row: 3
+      column: 1
+    endObstacle:
+      row: 4
+      column: 2
+    blinking: 0
+    showTime: 0
+    hideTime: 0
+  - startObstacle:
+      row: 4
+      column: 2
+    endObstacle:
+      row: 3
+      column: 2
+    blinking: 0
+    showTime: 0
+    hideTime: 0
+  targetMarks:
+  - type: 0
+    multiplier: 0.3
+  - type: 0
+    multiplier: 0.2
+  - type: 0
+    multiplier: 3
+  - type: 0
+    multiplier: 0.2
+  - type: 0
+    multiplier: 3
+  - type: 0
+    multiplier: 0.5
+  - type: 0
+    multiplier: 0.3
+  - type: 0
+    multiplier: 1.5
+  - type: 0
+    multiplier: 0.5
+  - type: 0
+    multiplier: 1.5
+  - type: 1
+    multiplier: 0
